@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "senha123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    networks:
+      - app-network
+
+  webapp:
+    build:
+      context: .
+    ports:
+      - "5123:80"
+    networks:
+      - app-network
+    depends_on:
+      - sqlserver
+
+networks:
+  app-network:
+    driver: bridge

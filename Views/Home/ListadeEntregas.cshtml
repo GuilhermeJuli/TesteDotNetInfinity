@@ -1,0 +1,36 @@
+@model IEnumerable<TesteDotNetInfinity.Models.CadastroFrete>
+
+@{
+    ViewData["Title"] = "ListadeEntregas";
+}
+
+<h3>Lista de Entregas</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Empresa</th>
+            <th>Destinatário</th>
+            <th>Distância</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var frete in Model)
+            {
+                <tr>
+                    <td>@frete.NomedaEmpresa</td>
+                    <td>@frete.NomeDestinatario</td>
+                    <td>@frete.Distancia</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">Nenhum dado encontrado.</td>
+            </tr>
+        }
+    </tbody>
+</table>
