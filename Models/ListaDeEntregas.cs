@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TesteDotNetInfinity.Models;
+namespace TesteDotNetInfinity.Models{
 
 public class ListadeEntregas
 {
@@ -15,4 +15,5 @@ public class ListadeEntregas
 
     public required string Remetente { get; set; }
 
+}
 }

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TesteDotNetInfinity.Models;
+namespace TesteDotNetInfinity.Models{
 
    public class CadastroVeiculos{
     [Key]
@@ -29,3 +29,5 @@ namespace TesteDotNetInfinity.Models;
     public DateTime DataDeCadastro { get; set; }
 
     }
+
+}
