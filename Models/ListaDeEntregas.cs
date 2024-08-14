@@ -2,7 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TesteDotNetInfinity.Models;
 
-public class Entrega{
+public class ListadeEntregas
+{
 
     [Key]
     public int Id { get; set; }

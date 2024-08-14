@@ -12,13 +12,18 @@ namespace TesteDotNetInfinity.Database
 
         public DbSet<CadastroFrete> Fretes { get; set; }
 
-        public DbSet<CadastroTerceiro> Terceiros { get; set; }
+        public DbSet<CadastroVeiculos> Veiculos { get; set; }
 
-        public DbSet<Entrega> Entregas { get; set; }
+        public DbSet<ListadeEntregas> Entregas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=localhost;Database=TesteDotNetInfinity;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
     }
 }

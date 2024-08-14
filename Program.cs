@@ -44,4 +44,13 @@ using (var scope = app.Services.CreateScope())
     dbContext.Database.Migrate();
 }
 
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (string.IsNullOrEmpty(connectionString)){
+    throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+}
+string scriptPath = "./DataBase/setup.sql";
+
+SqlScriptExecutor.ExecuteSqlScript(connectionString, scriptPath);
+Console.WriteLine("Script executed successfully.");
+
 app.Run();

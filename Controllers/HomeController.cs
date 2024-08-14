@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using TesteDotNetInfinity.Database;
 using TesteDotNetInfinity.Models;
 
 namespace TesteDotNetInfinity.Controllers;
@@ -32,7 +33,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult CadastroTerceiro(){
+    public IActionResult CadastroVeiculos(){
 
         return View();
     }

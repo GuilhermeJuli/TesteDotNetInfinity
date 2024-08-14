@@ -1,39 +1,71 @@
 @model TesteDotNetInfinity.Models.CadastroFrete
 
 @{
-    ViewData["Title"] = "CadastroFrete";
+    ViewData["Title"] = "Cadastro de Fretes e Encomendas";
 }
 
 <body>
     <div class="text-center">    
         <h3 style="text-align: center;">Cadastro de Fretes e Encomendas</h3>
 
-        <form asp-action="Criar" method="post" style="line-height: 3rem;">
-            <div class="form-group" style="text-align: left; margin-top: 10rem;">
-                <label asp-for="NomedaEmpresa" class="control-label">
-                    <strong>Empresa</strong>(Nome da Empresa Remetente.)
+        <form asp-action="Create" method="post" style="line-height: 2rem;">
+            <div class="form-group" style="text-align: left; margin-top: 5rem;">
+                <label asp-for="Origem" class="control-label">
+                    <strong>Origem</strong> (Local de origem do frete.)
                 </label>
-                <input asp-for="NomedaEmpresa" class="form-control">
-                <span asp-validation-for="NomedaEmpresa" class="text-danger"></span>
+                <input asp-for="Origem" class="form-control">
+                <span asp-validation-for="Origem" class="text-danger"></span>
             </div>
 
             <div class="form-group" style="text-align: left;">
-                <label asp-for="NomeDestinatario" class="control-label">
-                    <strong>Destinatario</strong>(Nome do Destinatario ou responsável pelo recebimento.)
+                <label asp-for="Destino" class="control-label">
+                    <strong>Destino</strong> (Local de destino do frete.)
                 </label>
-                <input asp-for="NomeDestinatario" class="form-control">
-                <span asp-validation-for="NomeDestinatario" class="text-danger"></span>
+                <input asp-for="Destino" class="form-control">
+                <span asp-validation-for="Destino" class="text-danger"></span>
             </div>
 
             <div class="form-group" style="text-align: left;">
                 <label asp-for="Distancia" class="control-label">
-                    <strong>Distância</strong>(Quilometragem de destino.)
+                    <strong>Distância</strong> (Quilometragem de destino.)
                 </label>
-                <input asp-for="Distancia" class="form-control">
+                <input asp-for="Distancia" class="form-control" type="number" step="0.01">
                 <span asp-validation-for="Distancia" class="text-danger"></span>
             </div>
             
-            <button style="margin-top: 20rem;" type="submit" class="btn btn-primary">Salvar</button>
+            <div class="form-group" style="text-align: left;">
+                <label asp-for="Peso" class="control-label">
+                    <strong>Peso</strong> (Peso do frete.)
+                </label>
+                <input asp-for="Peso" class="form-control" type="number" step="0.01">
+                <span asp-validation-for="Peso" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group" style="text-align: left;">
+                <label asp-for="Status" class="control-label">
+                    <strong>Status</strong> (Status atual do frete.)
+                </label>
+                <input asp-for="Status" class="form-control">
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="text-align: left;">
+                <label asp-for="UsuarioId" class="control-label">
+                    <strong>ID do Usuário</strong> (ID do usuário responsável pelo frete.)
+                </label>
+                <input asp-for="UsuarioId" class="form-control" type="number">
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group" style="text-align: left;">
+                <label asp-for="VeiculoId" class="control-label">
+                    <strong>ID do Veículo</strong> (ID do veículo utilizado no frete.)
+                </label>
+                <input asp-for="VeiculoId" class="form-control" type="number">
+                <span asp-validation-for="VeiculoId" class="text-danger"></span>
+            </div>
+
+            <button style="margin-top: 10rem;" type="submit" class="btn btn-primary">Salvar</button>
         </form>
 
         @section Scripts{

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteDotNetInfinity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6883b54f7a807884a8b2ad26a4ed455f38fb848")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteDotNetInfinity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteDotNetInfinity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
