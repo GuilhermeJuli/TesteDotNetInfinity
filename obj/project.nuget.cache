@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hQKqjN7BLpw=",
+  "dgSpecHash": "RR0zU6uF6IY=",
   "success": true,
-  "projectFilePath": "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
+  "projectFilePath": "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
   "expectedPackageFiles": [
     "/home/taxinha/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/taxinha/.nuget/packages/azure.identity/1.11.3/azure.identity.1.11.3.nupkg.sha512",

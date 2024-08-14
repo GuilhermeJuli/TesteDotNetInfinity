@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/TesteDotNetInfinity.csproj": {}
+    "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/TesteDotNetInfinity.csproj": {}
   },
   "projects": {
-    "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/TesteDotNetInfinity.csproj": {
+    "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/TesteDotNetInfinity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
+        "projectUniqueName": "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
         "projectName": "TesteDotNetInfinity",
-        "projectPath": "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
+        "projectPath": "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/TesteDotNetInfinity.csproj",
         "packagesPath": "/home/taxinha/.nuget/packages/",
-        "outputPath": "/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/obj/",
+        "outputPath": "/home/taxinha/Área de Trabalho/TesteDotNetInfinity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/taxinha/.nuget/NuGet/NuGet.Config"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/248/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

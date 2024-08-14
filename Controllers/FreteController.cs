@@ -17,13 +17,17 @@ public class FreteController : Controller
     }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Criar(CadastroFrete model)
     {
         if (!ModelState.IsValid)
         {
+            foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                Console.WriteLine(error);
+            }
             return View(model);
         }
+
 
         try
         {

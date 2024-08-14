@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TesteDotNetInfinity
 build_property.RootNamespace = TesteDotNetInfinity
-build_property.ProjectDir = /home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/
+build_property.ProjectDir = /home/taxinha/Área de Trabalho/TesteDotNetInfinity/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity
+build_property.MSBuildProjectDirectory = /home/taxinha/Área de Trabalho/TesteDotNetInfinity
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Home/CadastroFrete.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Home/CadastroFrete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYWRhc3Ryb0ZyZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Home/CadastroVeiculos.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Home/CadastroVeiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYWRhc3Ryb1ZlaWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Home/Criar.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Home/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Dcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Home/Index.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Home/ListadeEntregas.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Home/ListadeEntregas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0YWRlRW50cmVnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Shared/Error.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/_ViewImports.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/_ViewStart.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/taxinha/TesteInfinityBrasil/TesteDotNetInfinity/Views/Shared/_Layout.cshtml]
+[/home/taxinha/Área de Trabalho/TesteDotNetInfinity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rfnxpcew0u
